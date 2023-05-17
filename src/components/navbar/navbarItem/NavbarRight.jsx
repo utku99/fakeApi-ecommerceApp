@@ -24,7 +24,7 @@ const NavbarRight = () => {
                 <input className='bg-gray-200 outline-none' type="text" placeholder='Arama yapınız ...' />
                 <BiSearch size={28} />
             </div>
-            <div onClick={() => navigate("cart")} className='relative'>
+            <div onClick={() => navigate("fakeApi-ecommerceApp/cart")} className='relative'>
                 <div className='absolute -top-3 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center cursor-pointer'>{itemCount}</div>
                 <BsFillBasketFill size={28} />
             </div>

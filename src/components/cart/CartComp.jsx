@@ -7,7 +7,6 @@ const CartComp = ({item}) => {
 
   const onclick =() =>{
     dispatch(removeFromCart(item?.id))
-    window.location.reload(true);
   }
 
   return (

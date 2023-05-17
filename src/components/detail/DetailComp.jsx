@@ -17,7 +17,6 @@ const DetailComp = ({ productDetail }) => {
     }
     const addBasket = () => {
         dispatch(addToCart({price: productDetail?.price, id: productDetail?.id, title: productDetail?.title, image: productDetail?.image, quantity: quantity}))
-        window.location.reload(true);
     }
 
 
