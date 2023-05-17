@@ -12,9 +12,9 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/products/:id" element={<Detail />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/fakeApi-ecommerceApp" element={<Home />} />
+            <Route path="fakeApi-ecommerceApp/products/:id" element={<Detail />} />
+            <Route path="fakeApi-ecommerceApp/cart" element={<Cart />} />
           </Routes>
         </BrowserRouter>
       </PageContainer>
