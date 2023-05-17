@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const NavbarLeft = () => {
   return (
     <div className='text-6xl '>
-      <Link to="/fakeApi-ecommerceApp">
+      <Link to="/">
         HOME
       </Link>
 
